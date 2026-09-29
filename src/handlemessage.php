@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-// require '../vendor/autoload.php';
+//require '../vendor/autoload.php';
 
 // Check if name, email and message are given
 if ( ! empty($_POST['name']) && ! empty($_POST['email']) && ! empty($_POST['message'])) {
